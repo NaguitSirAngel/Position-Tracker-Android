@@ -52,7 +52,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/txtDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="130dp"
@@ -73,19 +73,19 @@
         android:text="Rating:"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/txtDate" />
 
     <Button
         android:id="@+id/btnShare"
         android:layout_width="110dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="32dp"
         android:layout_marginEnd="30dp"
         android:layout_marginRight="30dp"
         android:background="@color/EggShell"
         android:text="Share"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/btnViewRoute" />
 
     <TextView
         android:id="@+id/editDate"
@@ -117,7 +117,7 @@
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.2"
-        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintStart_toEndOf="@+id/txtDate"
         app:layout_constraintTop_toBottomOf="@+id/editName" />
 
     <TextView
@@ -137,20 +137,32 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="32dp"
         android:background="@color/EggShell"
-        android:text="view route"
+        android:text="delete"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/btnViewRoute" />
 
     <Button
         android:id="@+id/btnEditRoute"
         android:layout_width="110dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="32dp"
         android:background="@color/EggShell"
         android:text="Edit route"
         app:layout_constraintEnd_toStartOf="@+id/btnShare"
         app:layout_constraintStart_toEndOf="@+id/btnSave"
+        app:layout_constraintTop_toBottomOf="@+id/btnViewRoute" />
+
+    <Button
+        android:id="@+id/btnViewRoute"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@color/EggShell"
+        android:text="View route"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
