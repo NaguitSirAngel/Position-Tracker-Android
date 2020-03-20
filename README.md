@@ -3,6 +3,11 @@ An Android mobile application that allows a user to record their track from poin
 
 # View
 <img src="/img/1.jpg?raw=true" width="400" height="700"/>
+<img src="/img/2.jpg?raw=true" width="400" height="700"/>
+<img src="/img/3.jpg?raw=true" width="400" height="700"/>
+<img src="/img/4.jpg?raw=true" width="400" height="700"/>
+<img src="/img/6.jpg?raw=true" width="400" height="700"/>
+
 ![Alt text](/img/1.jpg?raw=true)
 ![Alt text](/img/2.jpg?raw=true)
 ![Alt text](/img/3.jpg?raw=true)
