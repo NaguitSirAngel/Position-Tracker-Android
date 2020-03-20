@@ -5,7 +5,6 @@ An Android mobile application that allows a user to record their track from poin
 ![Alt text](/img/1.jpg?raw=true)
 ![Alt text](/img/2.jpg?raw=true)
 ![Alt text](/img/3.jpg?raw=true)
-![Alt text](/img/4.jpg?raw=true)
 ![Alt text](/img/5.jpg?raw=true)
 ![Alt text](/img/6.jpg?raw=true)
 
